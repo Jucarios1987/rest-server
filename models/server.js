@@ -6,7 +6,7 @@ class Server {
     // Defino un cobstructor con las propiedades de la clase
     constructor() {
          this.app = express();
-         this.port = process.env.PORT;
+         this.port = process.env.PORT || 8080;
          this.usuariosPath = '/restserver/usuarios';
 
          // Middlewares: Son funciones que añaden otra funcionalidad al web server, es una funcion que siempre se ejecutara al lebantar el servidor.
