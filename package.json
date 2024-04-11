@@ -4,7 +4,8 @@
   "description": "",
   "main": "01_app.js",
   "scripts": {
-    "start": "node 02_app.js"
+    "start": "node 02_app.js",
+    "production": "npm install --omit=dev"
   },
   "keywords": [],
   "author": "",
